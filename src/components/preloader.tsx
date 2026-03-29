@@ -49,31 +49,34 @@ export default function Preloader() {
 
       <div className="relative flex flex-col items-center justify-center">
         
-        {/* Animated Outer HUD Rings */}
-        <div className="absolute w-48 h-48 md:w-64 md:h-64 border-t-2 border-b-2 border-primary/30 rounded-full animate-[spin_3s_linear_infinite]"></div>
-        <div className="absolute w-40 h-40 md:w-56 md:h-56 border-l-2 border-r-2 border-blue-500/20 rounded-full animate-[spin_2s_linear_infinite_reverse]"></div>
-        
-        {/* Logo Container */}
-        <div className="relative w-32 h-32 md:w-48 md:h-48 z-10 flex items-center justify-center">
-          {logo?.imageUrl && (
-            <div className="relative w-4/5 h-4/5">
-              <Image
-                src={logo.imageUrl}
-                alt="Rwathia Gadget Store"
-                fill
-                className="object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.6)] animate-pulse"
-                priority
-              />
-            </div>
-          )}
+        {/* Central Hub: Perfectly Centered Rings and Logo */}
+        <div className="relative w-48 h-48 md:w-64 md:h-64 flex items-center justify-center">
+          {/* Animated Outer HUD Rings */}
+          <div className="absolute inset-0 border-t-2 border-b-2 border-primary/30 rounded-full animate-[spin_3s_linear_infinite]"></div>
+          <div className="absolute inset-4 md:inset-6 border-l-2 border-r-2 border-blue-500/20 rounded-full animate-[spin_2s_linear_infinite_reverse]"></div>
+          
+          {/* Logo Container - Absolute Center of the Rings */}
+          <div className="relative w-24 h-24 md:w-36 md:h-36 z-10 flex items-center justify-center">
+            {logo?.imageUrl && (
+              <div className="relative w-full h-full">
+                <Image
+                  src={logo.imageUrl}
+                  alt="Rwathia Gadget Store"
+                  fill
+                  className="object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.6)] animate-pulse"
+                  priority
+                />
+              </div>
+            )}
+          </div>
         </div>
 
-        {/* Technical Data Text */}
+        {/* Technical Data Text - Positioned below the Central Hub */}
         <div className="mt-12 text-center z-10">
           <div className="text-[10px] uppercase tracking-[0.3em] text-primary/60 mb-2 font-mono">
-            System Initializing...
+            
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 justify-center">
             <div className="h-[2px] w-24 bg-gray-800 relative overflow-hidden">
               <div 
                 className="absolute inset-y-0 left-0 bg-primary transition-all duration-300 shadow-[0_0_8px_#3b82f6]"
