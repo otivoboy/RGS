@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -11,17 +12,17 @@ export default function WhatsAppFloat() {
   const whatsappLogo = PlaceHolderImages.find(p => p.id === 'whatsapp-icon');
 
   return (
-    <div className="fixed bottom-6 left-4 md:left-auto md:right-10 z-50">
+    <div className="fixed bottom-6 right-4 sm:right-6 md:right-10 z-50">
       <a
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
-          "flex items-center gap-2 bg-[#4CAF50] text-white px-4 py-2.5 rounded-full shadow-xl transition-all hover:scale-105 active:scale-95",
+          "flex items-center gap-2 bg-[#4CAF50] text-white px-4 py-2.5 rounded-full shadow-2xl transition-all hover:scale-105 active:scale-95 border border-white/20",
           "font-bold text-sm md:text-base tracking-tight"
         )}
       >
-        <div className="relative w-6 h-6 flex-shrink-0">
+        <div className="relative w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0">
           <Image
             src={whatsappLogo?.imageUrl || '/whatsapp.png'}
             alt="WhatsApp"

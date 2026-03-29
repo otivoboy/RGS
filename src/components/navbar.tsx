@@ -66,29 +66,29 @@ export default function Navbar() {
   return (
     <>
       {/* Top Bar - Professional Blue */}
-      <div className="w-full bg-[#2B59FF] text-white py-2 z-[60] relative">
-        <div className="container mx-auto max-w-[1440px] px-4 flex justify-between items-center text-[11px] sm:text-xs md:text-sm font-medium">
-          <div className="flex items-center gap-4 md:gap-8">
-            <div className="flex items-center gap-1.5">
-              <MapPin className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">HH Towers, Moi Avenue, Nairobi</span>
-              <span className="sm:hidden">HH Towers, Nairobi</span>
+      <div className="w-full bg-[#2B59FF] text-white py-1.5 sm:py-2 z-[60] relative">
+        <div className="container mx-auto max-w-[1440px] px-3 sm:px-4 flex justify-between items-center text-[10px] sm:text-xs md:text-sm font-medium">
+          <div className="flex items-center gap-2 sm:gap-8">
+            <div className="flex items-center gap-1">
+              <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+              <span className="hidden lg:inline">HH Towers, Moi Avenue, Nairobi</span>
+              <span className="lg:hidden">Nairobi</span>
             </div>
-            <div className="text-white/30">|</div>
-            <div className="flex items-center gap-1.5">
-              <Phone className="w-3.5 h-3.5" />
-              <a href="tel:+254729462462" className="hover:underline font-bold">+254 729 462 462</a>
+            <div className="text-white/30 hidden sm:block">|</div>
+            <div className="flex items-center gap-1">
+              <Phone className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+              <a href="tel:+254729462462" className="hover:underline font-bold whitespace-nowrap">+254 729 462 462</a>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 sm:gap-4">
             <a href="https://facebook.com/rwathiagadgetstore" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Facebook">
-              <Facebook className="w-4 h-4" />
+              <Facebook className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </a>
             <a href="https://x.com/rwathiagadgets" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="X (Twitter)">
-              <XIcon className="w-4 h-4" />
+              <XIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </a>
             <a href="https://instagram.com/rwathiagadgetstore" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors" aria-label="Instagram">
-              <Instagram className="w-4 h-4" />
+              <Instagram className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </a>
           </div>
         </div>
@@ -99,17 +99,17 @@ export default function Navbar() {
         <div className="container mx-auto max-w-[1440px] px-4">
           <div className="flex justify-between items-center h-16 md:h-20">
             {/* Mobile Menu & Logo Area */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-700 dark:text-gray-300 md:hidden"
+                className="text-gray-700 dark:text-gray-300 md:hidden p-1"
                 aria-label="Toggle menu"
               >
                 {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
               
               <Link href="/" className="flex items-center group">
-                <div className="relative w-24 h-10 md:w-32 md:h-14">
+                <div className="relative w-20 h-8 md:w-32 md:h-14">
                   {logo?.imageUrl && (
                     <Image
                       src={logo.imageUrl}
@@ -135,7 +135,7 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   className={`relative text-gray-700 dark:text-gray-300 font-medium transition-all duration-300 py-2 group ${
-                    isActiveLink(link.href) ? "text-primary dark:text-primary font-bold" : "hover:text-primary"
+                    isActiveLink(link.href) ? "text-[#2B59FF] dark:text-[#2B59FF] font-bold" : "hover:text-[#2B59FF]"
                   }`}
                 >
                   {link.label}
@@ -145,10 +145,10 @@ export default function Navbar() {
 
             {/* Right Icons */}
             <div className="flex items-center gap-3 md:gap-6">
-              <Link href="/cart" className="relative p-1 group">
-                <ShoppingBag className="w-6 h-6 text-gray-600 dark:text-gray-400 group-hover:text-primary transition-colors" />
+              <Link href="/cart" className="relative p-1.5 group">
+                <ShoppingBag className="w-6 h-6 text-gray-600 dark:text-gray-400 group-hover:text-[#2B59FF] transition-colors" />
                 {cartCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-gray-800 text-white text-[10px] font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-md">
+                  <span className="absolute top-0 right-0 bg-gray-800 text-white text-[9px] font-bold rounded-full h-4.5 w-4.5 flex items-center justify-center shadow-md">
                     {cartCount}
                   </span>
                 )}
@@ -159,22 +159,22 @@ export default function Navbar() {
 
         {/* Mobile Navigation Sidebar */}
         {isOpen && (
-          <div className="md:hidden fixed inset-0 bg-black/50 z-50" onClick={() => setIsOpen(false)}>
+          <div className="md:hidden fixed inset-0 bg-black/50 z-[70]" onClick={() => setIsOpen(false)}>
             <div className="w-3/4 h-full bg-background dark:bg-gray-900 p-6 animate-in slide-in-from-left duration-300" onClick={e => e.stopPropagation()}>
               <div className="flex justify-between items-center mb-8">
                 <h2 className="text-xl font-bold font-headline">Menu</h2>
-                <button onClick={() => setIsOpen(false)}>
+                <button onClick={() => setIsOpen(false)} className="p-1">
                   <X className="w-6 h-6" />
                 </button>
               </div>
-              <div className="space-y-4">
+              <div className="space-y-2">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     className={`block py-3 px-4 rounded-lg font-medium transition-all duration-300 ${
                       isActiveLink(link.href)
-                        ? "bg-primary text-white"
+                        ? "bg-[#2B59FF] text-white"
                         : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                     }`}
                   >
