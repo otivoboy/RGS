@@ -63,16 +63,22 @@ export default function Navbar() {
 
   const isActiveLink = (href: string) => {
     if (!pathname) return false;
-    if (href === "/") {
-      return pathname === "/";
+    
+    // Normalize paths by removing trailing slashes for reliable matching on deployed sites
+    const normalizedPath = pathname.replace(/\/$/, "") || "/";
+    const normalizedHref = href.replace(/\/$/, "") || "/";
+
+    if (normalizedHref === "/") {
+      return normalizedPath === "/";
     }
-    return pathname.startsWith(href);
+    
+    return normalizedPath.startsWith(normalizedHref);
   };
 
   return (
     <>
       {/* Top Bar - Professional Blue */}
-      <div className="w-full bg-[#2B59FF] text-white py-1.5 sm:py-2 z-[60] relative">
+      <div className="w-full bg-primary text-white py-1.5 sm:py-2 z-[60] relative">
         <div className="container mx-auto max-w-[1440px] px-3 sm:px-4 flex justify-between items-center text-[10px] sm:text-xs md:text-sm font-medium">
           <div className="flex items-center gap-2 sm:gap-8">
             <div className="flex items-center gap-1">
@@ -127,7 +133,7 @@ export default function Navbar() {
                     />
                   )}
                 </div>
-                <span className="hidden md:inline-block ml-3 text-xl lg:text-2xl font-bold text-[#2B59FF] font-headline">
+                <span className="hidden md:inline-block ml-3 text-xl lg:text-2xl font-bold text-primary font-headline">
                   Rwathia Gadget Store
                 </span>
               </Link>
@@ -140,7 +146,7 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   className={`relative text-gray-700 dark:text-gray-300 font-medium transition-all duration-300 py-2 group ${
-                    isActiveLink(link.href) ? "text-[#2B59FF] dark:text-[#2B59FF] font-bold" : "hover:text-[#2B59FF]"
+                    isActiveLink(link.href) ? "text-primary dark:text-primary font-bold" : "hover:text-primary"
                   }`}
                 >
                   {link.label}
@@ -151,7 +157,7 @@ export default function Navbar() {
             {/* Right Icons */}
             <div className="flex items-center gap-3 md:gap-6">
               <Link href="/cart" className="relative p-2 group transition-transform active:scale-95">
-                <ShoppingBag className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#2B59FF] transition-colors" />
+                <ShoppingBag className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-primary transition-colors" />
                 {cartCount > 0 && (
                   <span className={`absolute top-0 right-0 -mr-1 -mt-1 bg-red-600 text-white text-[10px] font-black rounded-full h-5 w-5 flex items-center justify-center shadow-md ring-2 ring-background transition-transform duration-300 ${isAnimating ? 'scale-125' : 'scale-100'}`}>
                     {cartCount > 99 ? '99+' : cartCount}
@@ -179,7 +185,7 @@ export default function Navbar() {
                     href={link.href}
                     className={`block py-3 px-4 rounded-lg font-medium transition-all duration-300 ${
                       isActiveLink(link.href)
-                        ? "bg-[#2B59FF] text-white"
+                        ? "bg-primary text-white"
                         : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                     }`}
                   >

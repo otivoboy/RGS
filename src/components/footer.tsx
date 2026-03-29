@@ -80,7 +80,7 @@ export default function Footer() {
                   />
                 )}
               </div>
-              <span className="text-xl font-bold text-blue-400 font-headline leading-tight">
+              <span className="text-xl font-bold text-primary font-headline leading-tight">
                 Rwathia Gadget Store
               </span>
             </Link>
@@ -143,14 +143,14 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 font-headline text-white/90">Contact Info</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-gray-400 text-sm">
                   <p>HH Towers, Moi Avenue</p>
                   <p>Nairobi, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
                   href="tel:+254729462462"
                   className="text-gray-400 hover:text-white transition-colors text-sm font-medium"
@@ -159,7 +159,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
                   href="mailto:info@rwathiagadgetstore.com"
                   className="text-gray-400 hover:text-white transition-colors text-sm font-medium break-all"
