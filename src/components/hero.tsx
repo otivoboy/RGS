@@ -1,30 +1,34 @@
 
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
     if (videoRef.current) {
+      // Explicitly set muted to true to satisfy browser autoplay requirements
+      videoRef.current.muted = true;
       videoRef.current.play().catch(error => {
-        // Log error only in development if needed
-        console.debug("Video autoplay attempted:", error);
+        console.debug("Autoplay inhibited:", error);
       });
     }
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white overflow-hidden min-h-[500px] md:min-h-[600px] flex items-center justify-center">
+    <section className="relative bg-blue-950 text-white overflow-hidden min-h-[500px] md:min-h-[600px] flex items-center justify-center">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full z-0">
         <video
           ref={videoRef}
           id="hero-video-player"
-          className="absolute inset-0 w-full h-full object-cover"
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            isVideoPlaying ? "opacity-100" : "opacity-0"
+          }`}
           style={{
-            transform: "scale(1.2)", 
+            transform: "scale(1.1)", 
             transformOrigin: "center center",
           }}
           loop
@@ -32,6 +36,7 @@ export default function Hero() {
           autoPlay
           playsInline
           preload="auto"
+          onPlaying={() => setIsVideoPlaying(true)}
         >
           <source src="/video1.mp4" type="video/mp4" />
           Your browser does not support the video tag.

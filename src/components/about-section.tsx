@@ -1,15 +1,17 @@
 
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Users, Award } from "lucide-react";
 
 export default function AboutSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.muted = true;
       videoRef.current.play().catch(error => {
         // Silently handle autoplay block
       });
@@ -66,13 +68,15 @@ export default function AboutSection() {
           </div>
 
           <div className="relative">
-            <Card className="overflow-hidden relative shadow-lg">
+            <Card className="overflow-hidden relative shadow-lg bg-gray-900">
               <CardContent className="p-0 relative">
                 <div className="aspect-video relative overflow-hidden rounded-lg">
                   <video
                     ref={videoRef}
                     id="about-video"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                      isVideoPlaying ? "opacity-100" : "opacity-0"
+                    }`}
                     style={{
                       transform: "scale(1.1)", 
                       transformOrigin: "center center",
@@ -82,6 +86,7 @@ export default function AboutSection() {
                     autoPlay
                     playsInline
                     preload="auto"
+                    onPlaying={() => setIsVideoPlaying(true)}
                   >
                     <source src="/video2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
