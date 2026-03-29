@@ -1,0 +1,1274 @@
+{
+  "placeholderImages": [
+    {
+      "id": "about-store-team",
+      "description": "Team photo inside Rwathia Gadget Store",
+      "imageUrl": "/about/store-team.jpg",
+      "imageHint": "store team"
+    },
+    {
+      "id": "gallery-store-front",
+      "description": "Store Front",
+      "imageUrl": "/assets/gallery-store-front.jpg",
+      "imageHint": "store front",
+      "category": "store"
+    },
+    {
+      "id": "gallery-smartphone-display",
+      "description": "Smartphone Display",
+      "imageUrl": "/assets/gallery-smartphone-display.jpg",
+      "imageHint": "smartphone display",
+      "category": "phones"
+    },
+    {
+      "id": "gallery-laptop-section",
+      "description": "Laptop Section",
+      "imageUrl": "/assets/gallery-laptop-section.jpg",
+      "imageHint": "laptop section",
+      "category": "laptops"
+    },
+    {
+      "id": "gallery-gaming-pc-display",
+      "description": "Gaming PC Display",
+      "imageUrl": "/assets/gallery-gaming-pc-display.jpg",
+      "imageHint": "gaming pc",
+      "category": "pcs"
+    },
+    {
+      "id": "gallery-appliances-section",
+      "description": "Home Appliances Section",
+      "imageUrl": "/assets/gallery-appliances-section.jpg",
+      "imageHint": "home appliances",
+      "category": "appliances"
+    },
+    {
+      "id": "gallery-accessories-wall",
+      "description": "Accessories Wall",
+      "imageUrl": "/assets/gallery-accessories-wall.jpg",
+      "imageHint": "accessories wall",
+      "category": "accessories"
+    },
+    {
+      "id": "gallery-service-counter",
+      "description": "Service Counter",
+      "imageUrl": "/assets/gallery-service-counter.jpg",
+      "imageHint": "service counter",
+      "category": "store"
+    },
+    {
+      "id": "gallery-iphone-display",
+      "description": "iPhone Display",
+      "imageUrl": "/assets/gallery-iphone-display.jpg",
+      "imageHint": "iphone display",
+      "category": "phones"
+    },
+    {
+      "id": "gallery-macbook-display",
+      "description": "MacBook Display",
+      "imageUrl": "/assets/gallery-macbook-display.jpg",
+      "imageHint": "macbook display",
+      "category": "laptops"
+    },
+    {
+      "id": "gallery-pc-building-station",
+      "description": "PC Building Station",
+      "imageUrl": "/assets/gallery-pc-building-station.jpg",
+      "imageHint": "pc building",
+      "category": "pcs"
+    },
+    {
+      "id": "gallery-kitchen-appliances",
+      "description": "Kitchen Appliances",
+      "imageUrl": "/assets/gallery-kitchen-appliances.jpg",
+      "imageHint": "kitchen appliances",
+      "category": "appliances"
+    },
+    {
+      "id": "gallery-audio-accessories",
+      "description": "Audio Accessories",
+      "imageUrl": "/assets/gallery-audio-accessories.jpg",
+      "imageHint": "audio accessories",
+      "category": "accessories"
+    },
+    {
+      "id": "gallery-store-interior",
+      "description": "Store Interior",
+      "imageUrl": "/assets/gallery-store-interior.jpg",
+      "imageHint": "store interior",
+      "category": "store"
+    },
+    {
+      "id": "gallery-tablet-display",
+      "description": "Tablet Display",
+      "imageUrl": "/assets/gallery-tablet-display.jpg",
+      "imageHint": "tablet display",
+      "category": "phones"
+    },
+    {
+      "id": "gallery-washing-machines",
+      "description": "Washing Machines Display",
+      "imageUrl": "/assets/gallery-washing-machines.jpg",
+      "imageHint": "washing machines",
+      "category": "appliances"
+    },
+    {
+      "id": "gallery-vacuum-cleaners",
+      "description": "Vacuum Cleaners",
+      "imageUrl": "/assets/gallery-vacuum-cleaners.jpg",
+      "imageHint": "vacuum cleaners",
+      "category": "appliances"
+    },
+    {
+      "id": "placeholder-svg",
+      "description": "Generic placeholder image",
+      "imageUrl": "/assets/placeholder.svg",
+      "imageHint": "placeholder"
+    },
+    {
+      "id": "ad-vertical-1",
+      "description": "Vertical Ad 1 - New Arrivals",
+      "imageUrl": "/ads/ad-vertical-1.jpg",
+      "imageHint": "new arrivals"
+    },
+    {
+      "id": "ad-vertical-2",
+      "description": "Vertical Ad 2 - Hot Deals",
+      "imageUrl": "/ads/ad-vertical-2.jpg",
+      "imageHint": "hot deals"
+    },
+    {
+      "id": "ad-vertical-3",
+      "description": "Vertical Ad 3 - Limited Offer",
+      "imageUrl": "/ads/ad-vertical-3.jpg",
+      "imageHint": "limited offer"
+    },
+    {
+      "id": "ad-vertical-4",
+      "description": "Vertical Ad 4 - Best Sellers",
+      "imageUrl": "/ads/ad-vertical-4.jpg",
+      "imageHint": "best sellers"
+    },
+    {
+      "id": "ad-vertical-5",
+      "description": "Vertical Ad 5 - Save Big",
+      "imageUrl": "/ads/ad-vertical-5.jpg",
+      "imageHint": "save big"
+    },
+    {
+      "id": "ad-vertical-6",
+      "description": "Vertical Ad 6 - Exclusive Deals",
+      "imageUrl": "/ads/ad-vertical-6.jpg",
+      "imageHint": "exclusive deals"
+    },
+    {
+      "id": "ad-full-mega-sale",
+      "description": "Full Feature Ad - Mega Sale",
+      "imageUrl": "/ads/ad-full-mega-sale.jpg",
+      "imageHint": "mega sale"
+    },
+    {
+      "id": "ad-full-new-laptops",
+      "description": "Full Feature Ad - New Laptops",
+      "imageUrl": "/ads/ad-full-new-laptops.jpg",
+      "imageHint": "new laptops"
+    },
+    {
+      "id": "ad-full-smartphone-deals",
+      "description": "Full Feature Ad - Smartphone Deals",
+      "imageUrl": "/ads/ad-full-smartphone-deals.jpg",
+      "imageHint": "smartphone deals"
+    },
+    {
+      "id": "ad-full-home-appliances",
+      "description": "Full Feature Ad - Home Appliances",
+      "imageUrl": "/ads/ad-full-home-appliances.jpg",
+      "imageHint": "home appliances"
+    },
+    {
+      "id": "ad-full-gaming-accessories",
+      "description": "Full Feature Ad - Gaming Accessories",
+      "imageUrl": "/ads/ad-full-gaming-accessories.jpg",
+      "imageHint": "gaming accessories"
+    },
+    {
+      "id": "logo-navbar",
+      "description": "Logo for Navbar",
+      "imageUrl": "/logo.png",
+      "imageHint": "store logo"
+    },
+    {
+      "id": "logo-footer",
+      "description": "Logo for Footer",
+      "imageUrl": "/logo.png",
+      "imageHint": "store logo"
+    },
+    {
+      "id": "logo-preloader",
+      "description": "Logo for Preloader",
+      "imageUrl": "/logo.png",
+      "imageHint": "store logo"
+    },
+    {
+      "id": "whatsapp-icon",
+      "description": "WhatsApp Icon",
+      "imageUrl": "/whatsapp.png",
+      "imageHint": "whatsapp icon"
+    },
+    {
+      "id": "meta-logo-jpg",
+      "description": "Meta image for social sharing",
+      "imageUrl": "/logo-og.jpg",
+      "imageHint": "store logo"
+    },
+    {
+      "id": "product-iphone-17-pro-max",
+      "description": "iPhone 17 Pro Max",
+      "imageUrl": "/products/iphone-17-pro-max.jpg",
+      "imageHint": "iPhone 17"
+    },
+    {
+      "id": "product-iphone-16-pro-max",
+      "description": "iPhone 16 Pro Max",
+      "imageUrl": "/products/iphone-16-pro-max.jpg",
+      "imageHint": "iPhone 16"
+    },
+    {
+      "id": "product-iphone-16",
+      "description": "iPhone 16",
+      "imageUrl": "/products/iphone-16.jpg",
+      "imageHint": "iPhone 16"
+    },
+    {
+      "id": "product-iphone-15-pro-max",
+      "description": "iPhone 15 Pro Max",
+      "imageUrl": "/products/iphone-15-pro-max.jpg",
+      "imageHint": "iPhone 15"
+    },
+    {
+      "id": "product-iphone-15-pro",
+      "description": "iPhone 15 Pro",
+      "imageUrl": "/products/iphone-15-pro.jpg",
+      "imageHint": "iPhone 15"
+    },
+    {
+      "id": "product-iphone-14-pro-max",
+      "description": "iPhone 14 Pro Max",
+      "imageUrl": "/products/iphone-14-pro-max.jpg",
+      "imageHint": "iPhone 14"
+    },
+    {
+      "id": "product-iphone-13-pro-max",
+      "description": "iPhone 13 Pro Max",
+      "imageUrl": "/products/iphone-13-pro-max.jpg",
+      "imageHint": "iPhone 13"
+    },
+    {
+      "id": "product-iphone-12-pro-max",
+      "description": "iPhone 12 Pro Max",
+      "imageUrl": "/products/iphone-12-pro-max.jpg",
+      "imageHint": "iPhone 12"
+    },
+    {
+      "id": "product-samsung-galaxy-s26-ultra",
+      "description": "Samsung Galaxy S26 Ultra",
+      "imageUrl": "/products/samsung-galaxy-s26-ultra.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-s25-ultra",
+      "description": "Samsung Galaxy S25 Ultra",
+      "imageUrl": "/products/samsung-galaxy-s25-ultra.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-s24-plus",
+      "description": "Samsung Galaxy S24+",
+      "imageUrl": "/products/samsung-galaxy-s24-plus.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-s24",
+      "description": "Samsung Galaxy S24 Ultra",
+      "imageUrl": "/products/samsung-galaxy-s24.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-s24-fe",
+      "description": "Samsung Galaxy S24 FE",
+      "imageUrl": "/products/samsung-galaxy-s24-fe.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-fold6",
+      "description": "Samsung Galaxy Z Fold6",
+      "imageUrl": "/products/samsung-galaxy-fold6.jpg",
+      "imageHint": "Samsung Fold"
+    },
+    {
+      "id": "product-samsung-galaxy-flip6",
+      "description": "Samsung Galaxy Z Flip6",
+      "imageUrl": "/products/samsung-galaxy-flip6.jpg",
+      "imageHint": "Samsung Flip"
+    },
+    {
+      "id": "product-samsung-galaxy-a55",
+      "description": "Samsung Galaxy A55 5G",
+      "imageUrl": "/products/samsung-galaxy-a55.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-samsung-galaxy-a35",
+      "description": "Samsung Galaxy A35 5G",
+      "imageUrl": "/products/samsung-galaxy-a35.jpg",
+      "imageHint": "Samsung Galaxy"
+    },
+    {
+      "id": "product-oneplus-13",
+      "description": "OnePlus 13",
+      "imageUrl": "/products/oneplus-13.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-12",
+      "description": "OnePlus 12",
+      "imageUrl": "/products/oneplus-12.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-12r",
+      "description": "OnePlus 12R",
+      "imageUrl": "/products/oneplus-12r.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-11-pro",
+      "description": "OnePlus 11 Pro",
+      "imageUrl": "/products/oneplus-11-pro.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-11",
+      "description": "OnePlus 11",
+      "imageUrl": "/products/oneplus-11.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-nord-4",
+      "description": "OnePlus Nord 4",
+      "imageUrl": "/products/oneplus-nord-4.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-oneplus-nord-ce-4",
+      "description": "OnePlus Nord CE 4",
+      "imageUrl": "/products/oneplus-nord-ce-4.jpg",
+      "imageHint": "OnePlus phone"
+    },
+    {
+      "id": "product-xiaomi-15-ultra",
+      "description": "Xiaomi 15 Ultra",
+      "imageUrl": "/products/xiaomi-15-ultra.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-xiaomi-15-pro",
+      "description": "Xiaomi 15 Pro",
+      "imageUrl": "/products/xiaomi-15-pro.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-xiaomi-15",
+      "description": "Xiaomi 15",
+      "imageUrl": "/products/xiaomi-15.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-xiaomi-14-ultra",
+      "description": "Xiaomi 14 Ultra",
+      "imageUrl": "/products/xiaomi-14-ultra.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-xiaomi-14-pro",
+      "description": "Xiaomi 14 Pro",
+      "imageUrl": "/products/xiaomi-14-pro.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-xiaomi-14",
+      "description": "Xiaomi 14",
+      "imageUrl": "/products/xiaomi-14.jpg",
+      "imageHint": "Xiaomi phone"
+    },
+    {
+      "id": "product-redmi-note-14-pro",
+      "description": "Redmi Note 14 Pro",
+      "imageUrl": "/products/redmi-note-14-pro.jpg",
+      "imageHint": "Redmi phone"
+    },
+    {
+      "id": "product-redmi-note-14",
+      "description": "Redmi Note 14",
+      "imageUrl": "/products/redmi-note-14.jpg",
+      "imageHint": "Redmi phone"
+    },
+    {
+      "id": "product-poco-f6-pro",
+      "description": "POCO F6 Pro",
+      "imageUrl": "/products/poco-f6-pro.jpg",
+      "imageHint": "Poco phone"
+    },
+    {
+      "id": "product-tecno-phantom-v-fold2",
+      "description": "Tecno Phantom V Fold2",
+      "imageUrl": "/products/tecno-phantom-v-fold2.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-phantom-v-flip2",
+      "description": "Tecno Phantom V Flip2",
+      "imageUrl": "/products/tecno-phantom-v-flip2.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-camon-30-pro",
+      "description": "Tecno Camon 30 Pro 5G",
+      "imageUrl": "/products/tecno-camon-30-pro.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-spark-20-pro",
+      "description": "Tecno Spark 20 Pro+",
+      "imageUrl": "/products/tecno-spark-20-pro.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-pova-6-pro",
+      "description": "Tecno Pova 6 Pro 5G",
+      "imageUrl": "/products/tecno-pova-6-pro.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-camon-20-premier",
+      "description": "Tecno Camon 20 Premier 5G",
+      "imageUrl": "/products/tecno-camon-20-premier.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-phantom-x2-pro",
+      "description": "Tecno Phantom X2 Pro 5G",
+      "imageUrl": "/products/tecno-phantom-x2-pro.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-spark-go-2024",
+      "description": "Tecno Spark Go 2024",
+      "imageUrl": "/products/tecno-spark-go-2024.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-tecno-pop-8",
+      "description": "Tecno Pop 8",
+      "imageUrl": "/products/tecno-pop-8.jpg",
+      "imageHint": "Tecno phone"
+    },
+    {
+      "id": "product-infinix-zero-40-5g",
+      "description": "Infinix Zero 40 5G",
+      "imageUrl": "/products/infinix-zero-40-5g.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-note-40-pro",
+      "description": "Infinix Note 40 Pro+ 5G",
+      "imageUrl": "/products/infinix-note-40-pro.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-gt-20-pro",
+      "description": "Infinix GT 20 Pro",
+      "imageUrl": "/products/infinix-gt-20-pro.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-hot-50-pro",
+      "description": "Infinix Hot 50 Pro+",
+      "imageUrl": "/products/infinix-hot-50-pro.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-smart-8-hd",
+      "description": "Infinix Smart 8 HD",
+      "imageUrl": "/products/infinix-smart-8-hd.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-zero-30-5g",
+      "description": "Infinix Zero 30 5G",
+      "imageUrl": "/products/infinix-zero-30-5g.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-note-30-vip",
+      "description": "Infinix Note 30 VIP",
+      "imageUrl": "/products/infinix-note-30-vip.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-hot-40-pro",
+      "description": "Infinix Hot 40 Pro",
+      "imageUrl": "/products/infinix-hot-40-pro.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-infinix-smart-8-plus",
+      "description": "Infinix Smart 8 Plus",
+      "imageUrl": "/products/infinix-smart-8-plus.jpg",
+      "imageHint": "Infinix phone"
+    },
+    {
+      "id": "product-oppo-find-x8-pro",
+      "description": "Oppo Find X8 Pro",
+      "imageUrl": "/products/oppo-find-x8-pro.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-find-x8",
+      "description": "Oppo Find X8",
+      "imageUrl": "/products/oppo-find-x8.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-reno-12-pro",
+      "description": "Oppo Reno 12 Pro 5G",
+      "imageUrl": "/products/oppo-reno-12-pro.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-reno-12",
+      "description": "Oppo Reno 12 5G",
+      "imageUrl": "/products/oppo-reno-12.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-a3-pro",
+      "description": "Oppo A3 Pro 5G",
+      "imageUrl": "/products/oppo-a3-pro.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-a79-5g",
+      "description": "Oppo A79 5G",
+      "imageUrl": "/products/oppo-a79-5g.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-a18",
+      "description": "Oppo A18",
+      "imageUrl": "/products/oppo-a18.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-find-n3-flip",
+      "description": "Oppo Find N3 Flip",
+      "imageUrl": "/products/oppo-find-n3-flip.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-oppo-find-n3",
+      "description": "Oppo Find N3",
+      "imageUrl": "/products/oppo-find-n3.jpg",
+      "imageHint": "Oppo phone"
+    },
+    {
+      "id": "product-google-pixel-9-pro-xl",
+      "description": "Google Pixel 9 Pro XL",
+      "imageUrl": "/products/google-pixel-9-pro-xl.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-9-pro",
+      "description": "Google Pixel 9 Pro",
+      "imageUrl": "/products/google-pixel-9-pro.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-9",
+      "description": "Google Pixel 9",
+      "imageUrl": "/products/google-pixel-9.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-8-pro",
+      "description": "Google Pixel 8 Pro",
+      "imageUrl": "/products/google-pixel-8-pro.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-8",
+      "description": "Google Pixel 8",
+      "imageUrl": "/products/google-pixel-8.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-8a",
+      "description": "Google Pixel 8a",
+      "imageUrl": "/products/google-pixel-8a.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-fold",
+      "description": "Google Pixel Fold",
+      "imageUrl": "/products/google-pixel-fold.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-7-pro",
+      "description": "Google Pixel 7 Pro",
+      "imageUrl": "/products/google-pixel-7-pro.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-google-pixel-7a",
+      "description": "Google Pixel 7a",
+      "imageUrl": "/products/google-pixel-7a.jpg",
+      "imageHint": "Google Pixel"
+    },
+    {
+      "id": "product-hp-spectre-x360-16",
+      "description": "HP Spectre x360 16",
+      "imageUrl": "/products/hp-spectre-x360-16.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-envy-x360-15",
+      "description": "HP Envy x360 15",
+      "imageUrl": "/products/hp-envy-x360-15.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-pavilion-15",
+      "description": "HP Pavilion 15",
+      "imageUrl": "/products/hp-pavilion-15.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-omen-16",
+      "description": "HP OMEN 16",
+      "imageUrl": "/products/hp-omen-16.jpg",
+      "imageHint": "HP gaming"
+    },
+    {
+      "id": "product-hp-victus-15",
+      "description": "HP Victus 15",
+      "imageUrl": "/products/hp-victus-15.jpg",
+      "imageHint": "HP gaming"
+    },
+    {
+      "id": "product-hp-elitebook-840-g10",
+      "description": "HP EliteBook 840 G10",
+      "imageUrl": "/products/hp-elitebook-840-g10.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-probook-450-g10",
+      "description": "HP ProBook 450 G10",
+      "imageUrl": "/products/hp-probook-450-g10.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-laptop-15s",
+      "description": "HP Laptop 15s",
+      "imageUrl": "/products/hp-laptop-15s.jpg",
+      "imageHint": "HP laptop"
+    },
+    {
+      "id": "product-hp-zbook-studio-g10",
+      "description": "HP ZBook Studio G10",
+      "imageUrl": "/products/hp-zbook-studio-g10.jpg",
+      "imageHint": "HP workstation"
+    },
+    {
+      "id": "product-lenovo-thinkpad-x1-carbon-gen11",
+      "description": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "imageUrl": "/products/lenovo-thinkpad-x1-carbon-gen11.jpg",
+      "imageHint": "Lenovo ThinkPad"
+    },
+    {
+      "id": "product-lenovo-yoga-9i-14",
+      "description": "Lenovo Yoga 9i 14",
+      "imageUrl": "/products/lenovo-yoga-9i-14.jpg",
+      "imageHint": "Lenovo Yoga"
+    },
+    {
+      "id": "product-lenovo-legion-5-pro",
+      "description": "Lenovo Legion 5 Pro",
+      "imageUrl": "/products/lenovo-legion-5-pro.jpg",
+      "imageHint": "Lenovo Legion"
+    },
+    {
+      "id": "product-lenovo-ideapad-5-pro",
+      "description": "Lenovo IdeaPad 5 Pro",
+      "imageUrl": "/products/lenovo-ideapad-5-pro.jpg",
+      "imageHint": "Lenovo IdeaPad"
+    },
+    {
+      "id": "product-lenovo-thinkbook-15-g4",
+      "description": "Lenovo ThinkBook 15 G4",
+      "imageUrl": "/products/lenovo-thinkbook-15-g4.jpg",
+      "imageHint": "Lenovo ThinkBook"
+    },
+    {
+      "id": "product-lenovo-legion-slim-5",
+      "description": "Lenovo Legion Slim 5",
+      "imageUrl": "/products/lenovo-legion-slim-5.jpg",
+      "imageHint": "Lenovo Legion"
+    },
+    {
+      "id": "product-lenovo-ideapad-3-15",
+      "description": "Lenovo IdeaPad 3 15",
+      "imageUrl": "/products/lenovo-ideapad-3-15.jpg",
+      "imageHint": "Lenovo IdeaPad"
+    },
+    {
+      "id": "product-lenovo-thinkpad-e15-gen4",
+      "description": "Lenovo ThinkPad E15 Gen 4",
+      "imageUrl": "/products/lenovo-thinkpad-e15-gen4.jpg",
+      "imageHint": "Lenovo ThinkPad"
+    },
+    {
+      "id": "product-lenovo-yoga-slim-7-pro",
+      "description": "Lenovo Yoga Slim 7 Pro",
+      "imageUrl": "/products/lenovo-yoga-slim-7-pro.jpg",
+      "imageHint": "Lenovo Yoga"
+    },
+    {
+      "id": "product-asus-zenbook-pro-16x-oled",
+      "description": "ASUS ZenBook Pro 16X OLED",
+      "imageUrl": "/products/asus-zenbook-pro-16x-oled.jpg",
+      "imageHint": "ASUS ZenBook"
+    },
+    {
+      "id": "product-asus-rog-strix-g16",
+      "description": "ASUS ROG Strix G16",
+      "imageUrl": "/products/asus-rog-strix-g16.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-asus-vivobook-s15-oled",
+      "description": "ASUS Vivobook S15 OLED",
+      "imageUrl": "/products/asus-vivobook-s15-oled.jpg",
+      "imageHint": "ASUS Vivobook"
+    },
+    {
+      "id": "product-asus-tuf-gaming-f15",
+      "description": "ASUS TUF Gaming F15",
+      "imageUrl": "/products/asus-tuf-gaming-f15.jpg",
+      "imageHint": "ASUS TUF"
+    },
+    {
+      "id": "product-asus-zenbook-14-oled",
+      "description": "ASUS ZenBook 14 OLED",
+      "imageUrl": "/products/asus-zenbook-14-oled.jpg",
+      "imageHint": "ASUS ZenBook"
+    },
+    {
+      "id": "product-asus-rog-zephyrus-g14",
+      "description": "ASUS ROG Zephyrus G14",
+      "imageUrl": "/products/asus-rog-zephyrus-g14.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-asus-vivobook-15",
+      "description": "ASUS Vivobook 15",
+      "imageUrl": "/products/asus-vivobook-15.jpg",
+      "imageHint": "ASUS Vivobook"
+    },
+    {
+      "id": "product-asus-expertbook-b1500",
+      "description": "ASUS ExpertBook B1500",
+      "imageUrl": "/products/asus-expertbook-b1500.jpg",
+      "imageHint": "ASUS ExpertBook"
+    },
+    {
+      "id": "product-asus-rog-flow-x13",
+      "description": "ASUS ROG Flow X13",
+      "imageUrl": "/products/asus-rog-flow-x13.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-hp-omen-45l-gaming-desktop",
+      "description": "HP OMEN 45L Gaming Desktop",
+      "imageUrl": "/products/hp-omen-45l-gaming-desktop.jpg",
+      "imageHint": "HP OMEN"
+    },
+    {
+      "id": "product-hp-pavilion-gaming-tg01",
+      "description": "HP Pavilion Gaming TG01",
+      "imageUrl": "/products/hp-pavilion-gaming-tg01.jpg",
+      "imageHint": "HP Pavilion"
+    },
+    {
+      "id": "product-hp-elitedesk-800-g9-mini",
+      "description": "HP EliteDesk 800 G9 Mini",
+      "imageUrl": "/products/hp-elitedesk-800-g9-mini.jpg",
+      "imageHint": "HP EliteDesk"
+    },
+    {
+      "id": "product-hp-prodesk-400-g9-sff",
+      "description": "HP ProDesk 400 G9 SFF",
+      "imageUrl": "/products/hp-prodesk-400-g9-sff.jpg",
+      "imageHint": "HP ProDesk"
+    },
+    {
+      "id": "product-hp-z2-mini-g9-workstation",
+      "description": "HP Z2 Mini G9 Workstation",
+      "imageUrl": "/products/hp-z2-mini-g9-workstation.jpg",
+      "imageHint": "HP Z2 Mini"
+    },
+    {
+      "id": "product-hp-slim-desktop-s01",
+      "description": "HP Slim Desktop S01",
+      "imageUrl": "/products/hp-slim-desktop-s01.jpg",
+      "imageHint": "HP Desktop"
+    },
+    {
+      "id": "product-hp-omen-cryo-chamber-cooling",
+      "description": "HP OMEN Cryo Chamber Desktop",
+      "imageUrl": "/products/hp-omen-cryo-chamber-cooling.jpg",
+      "imageHint": "HP OMEN"
+    },
+    {
+      "id": "product-hp-all-in-one-24-df",
+      "description": "HP All-in-One 24-df",
+      "imageUrl": "/products/hp-all-in-one-24-df.jpg",
+      "imageHint": "HP All-in-One"
+    },
+    {
+      "id": "product-hp-envy-desktop-te02",
+      "description": "HP ENVY Desktop TE02",
+      "imageUrl": "/products/hp-envy-desktop-te02.jpg",
+      "imageHint": "HP ENVY"
+    },
+    {
+      "id": "product-lenovo-legion-tower-7i",
+      "description": "Lenovo Legion Tower 7i",
+      "imageUrl": "/products/lenovo-legion-tower-7i.jpg",
+      "imageHint": "Lenovo Legion"
+    },
+    {
+      "id": "product-lenovo-ideacentre-gaming-5i",
+      "description": "Lenovo IdeaCentre Gaming 5i",
+      "imageUrl": "/products/lenovo-ideacentre-gaming-5i.jpg",
+      "imageHint": "Lenovo IdeaCentre"
+    },
+    {
+      "id": "product-lenovo-thinkcentre-m90q-tiny",
+      "description": "Lenovo ThinkCentre M90q Tiny",
+      "imageUrl": "/products/lenovo-thinkcentre-m90q-tiny.jpg",
+      "imageHint": "Lenovo ThinkCentre"
+    },
+    {
+      "id": "product-lenovo-thinkstation-p360-tiny",
+      "description": "Lenovo ThinkStation P360 Tiny",
+      "imageUrl": "/products/lenovo-thinkstation-p360-tiny.jpg",
+      "imageHint": "Lenovo ThinkStation"
+    },
+    {
+      "id": "product-lenovo-ideacentre-5i",
+      "description": "Lenovo IdeaCentre 5i",
+      "imageUrl": "/products/lenovo-ideacentre-5i.jpg",
+      "imageHint": "Lenovo IdeaCentre"
+    },
+    {
+      "id": "product-lenovo-legion-tower-5i",
+      "description": "Lenovo Legion Tower 5i",
+      "imageUrl": "/products/lenovo-legion-tower-5i.jpg",
+      "imageHint": "Lenovo Legion"
+    },
+    {
+      "id": "product-lenovo-thinkcentre-m70s-sff",
+      "description": "Lenovo ThinkCentre M70s SFF",
+      "imageUrl": "/products/lenovo-thinkcentre-m70s-sff.jpg",
+      "imageHint": "Lenovo ThinkCentre"
+    },
+    {
+      "id": "product-lenovo-yoga-aio-7",
+      "description": "Lenovo Yoga AIO 7",
+      "imageUrl": "/products/lenovo-yoga-aio-7.jpg",
+      "imageHint": "Lenovo Yoga"
+    },
+    {
+      "id": "product-lenovo-ideacentre-aio-3",
+      "description": "Lenovo IdeaCentre AIO 3",
+      "imageUrl": "/products/lenovo-ideacentre-aio-3.jpg",
+      "imageHint": "Lenovo IdeaCentre"
+    },
+    {
+      "id": "product-asus-rog-strix-gt35",
+      "description": "ASUS ROG Strix GT35",
+      "imageUrl": "/products/asus-rog-strix-gt35.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-asus-rog-strix-g15dk",
+      "description": "ASUS ROG Strix G15DK",
+      "imageUrl": "/products/asus-rog-strix-g15dk.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-asus-vivopc-x",
+      "description": "ASUS VivoPC X",
+      "imageUrl": "/products/asus-vivopc-x.jpg",
+      "imageHint": "ASUS VivoPC"
+    },
+    {
+      "id": "product-asus-expertcenter-d7-sff",
+      "description": "ASUS ExpertCenter D7 SFF",
+      "imageUrl": "/products/asus-expertcenter-d7-sff.jpg",
+      "imageHint": "ASUS ExpertCenter"
+    },
+    {
+      "id": "product-asus-rog-strix-g10dk",
+      "description": "ASUS ROG Strix G10DK",
+      "imageUrl": "/products/asus-rog-strix-g10dk.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-asus-proart-station-pd5",
+      "description": "ASUS ProArt Station PD5",
+      "imageUrl": "/products/asus-proart-station-pd5.jpg",
+      "imageHint": "ASUS ProArt"
+    },
+    {
+      "id": "product-asus-mini-pc-pn64",
+      "description": "ASUS Mini PC PN64",
+      "imageUrl": "/products/asus-mini-pc-pn64.jpg",
+      "imageHint": "ASUS Mini PC"
+    },
+    {
+      "id": "product-asus-zen-aio-24",
+      "description": "ASUS Zen AiO 24",
+      "imageUrl": "/products/asus-zen-aio-24.jpg",
+      "imageHint": "ASUS Zen"
+    },
+    {
+      "id": "product-asus-rog-nuc",
+      "description": "ASUS ROG NUC",
+      "imageUrl": "/products/asus-rog-nuc.jpg",
+      "imageHint": "ASUS ROG"
+    },
+    {
+      "id": "product-samsung-odyssey-g9-49",
+      "description": "Samsung Odyssey G9 49\" Curved Gaming Monitor",
+      "imageUrl": "/products/samsung-odyssey-g9-49.jpg",
+      "imageHint": "Samsung Monitor"
+    },
+    {
+      "id": "product-lg-ultragear-27gn950",
+      "description": "LG UltraGear 27GN950 27\" 4K Gaming Monitor",
+      "imageUrl": "/products/lg-ultragear-27gn950.jpg",
+      "imageHint": "LG Monitor"
+    },
+    {
+      "id": "product-dell-ultrasharp-u2723qe",
+      "description": "Dell UltraSharp U2723QE 27\" 4K Monitor",
+      "imageUrl": "/products/dell-ultrasharp-u2723qe.jpg",
+      "imageHint": "Dell Monitor"
+    },
+    {
+      "id": "product-asus-proart-pa278qv",
+      "description": "ASUS ProArt PA278QV 27\" Professional Monitor",
+      "imageUrl": "/products/asus-proart-pa278qv.jpg",
+      "imageHint": "ASUS Monitor"
+    },
+    {
+      "id": "product-acer-predator-x34gs",
+      "description": "Acer Predator X34GS 34\" Curved Gaming Monitor",
+      "imageUrl": "/products/acer-predator-x34gs.jpg",
+      "imageHint": "Acer Monitor"
+    },
+    {
+      "id": "product-hp-omen-27c",
+      "description": "HP OMEN 27c 27\" Curved Gaming Monitor",
+      "imageUrl": "/products/hp-omen-27c.jpg",
+      "imageHint": "HP Monitor"
+    },
+    {
+      "id": "product-benq-pd3220u",
+      "description": "BenQ PD3220U 32\" 4K Designer Monitor",
+      "imageUrl": "/products/benq-pd3220u.jpg",
+      "imageHint": "BenQ Monitor"
+    },
+    {
+      "id": "product-msi-optix-mag274qrf",
+      "description": "MSI Optix MAG274QRF 27\" Gaming Monitor",
+      "imageUrl": "/products/msi-optix-mag274qrf.jpg",
+      "imageHint": "MSI Monitor"
+    },
+    {
+      "id": "product-viewsonic-vp2468",
+      "description": "ViewSonic VP2468 24\" Professional Monitor",
+      "imageUrl": "/products/viewsonic-vp2468.jpg",
+      "imageHint": "ViewSonic Monitor"
+    },
+    {
+      "id": "product-hp-laserjet-pro-m404dn",
+      "description": "HP LaserJet Pro M404dn Printer",
+      "imageUrl": "/products/hp-laserjet-pro-m404dn.jpg",
+      "imageHint": "HP Printer"
+    },
+    {
+      "id": "product-canon-pixma-g3020",
+      "description": "Canon PIXMA G3020 All-in-One Printer",
+      "imageUrl": "/products/canon-pixma-g3020.jpg",
+      "imageHint": "Canon Printer"
+    },
+    {
+      "id": "product-epson-ecotank-l3250",
+      "description": "Epson EcoTank L3250 All-in-One Printer",
+      "imageUrl": "/products/epson-ecotank-l3250.jpg",
+      "imageHint": "Epson Printer"
+    },
+    {
+      "id": "product-brother-dcp-l2540dw",
+      "description": "Brother DCP-L2540DW Laser Printer",
+      "imageUrl": "/products/brother-dcp-l2540dw.jpg",
+      "imageHint": "Brother Printer"
+    },
+    {
+      "id": "product-hp-color-laserjet-pro-m255dw",
+      "description": "HP Color LaserJet Pro M255dw",
+      "imageUrl": "/products/hp-color-laserjet-pro-m255dw.jpg",
+      "imageHint": "HP Printer"
+    },
+    {
+      "id": "product-canon-imageclass-mf3010",
+      "description": "Canon imageCLASS MF3010 Laser Printer",
+      "imageUrl": "/products/canon-imageclass-mf3010.jpg",
+      "imageHint": "Canon Printer"
+    },
+    {
+      "id": "product-hp-toner-cf217a",
+      "description": "HP 17A (CF217A) Black Toner Cartridge",
+      "imageUrl": "/products/hp-toner-cf217a.jpg",
+      "imageHint": "HP Toner"
+    },
+    {
+      "id": "product-canon-ink-pg-745xl",
+      "description": "Canon PG-745XL Black Ink Cartridge",
+      "imageUrl": "/products/canon-ink-pg-745xl.jpg",
+      "imageHint": "Canon Ink"
+    },
+    {
+      "id": "product-epson-ink-t664-set",
+      "description": "Epson T664 4-Color Ink Bottle Set",
+      "imageUrl": "/products/epson-ink-t664-set.jpg",
+      "imageHint": "Epson Ink"
+    },
+    {
+      "id": "product-ipad-pro-12-9-m4",
+      "description": "iPad Pro 12.9-inch (M4)",
+      "imageUrl": "/products/ipad-pro-12-9-m4.jpg",
+      "imageHint": "iPad Pro"
+    },
+    {
+      "id": "product-ipad-air-11-m4",
+      "description": "iPad Air 11-inch (M4)",
+      "imageUrl": "/products/ipad-air-11-m4.jpg",
+      "imageHint": "iPad Air"
+    },
+    {
+      "id": "product-samsung-galaxy-tab-s10-ultra",
+      "description": "Samsung Galaxy Tab S10 Ultra",
+      "imageUrl": "/products/samsung-galaxy-tab-s10-ultra.jpg",
+      "imageHint": "Samsung Tablet"
+    },
+    {
+      "id": "product-samsung-galaxy-tab-s10-plus",
+      "description": "Samsung Galaxy Tab S10+",
+      "imageUrl": "/products/samsung-galaxy-tab-s10-plus.jpg",
+      "imageHint": "Samsung Tablet"
+    },
+    {
+      "id": "product-microsoft-surface-pro-11",
+      "description": "Microsoft Surface Pro 11",
+      "imageUrl": "/products/microsoft-surface-pro-11.jpg",
+      "imageHint": "Microsoft Surface"
+    },
+    {
+      "id": "product-lenovo-tab-p12-pro",
+      "description": "Lenovo Tab P12 Pro",
+      "imageUrl": "/products/lenovo-tab-p12-pro.jpg",
+      "imageHint": "Lenovo Tablet"
+    },
+    {
+      "id": "product-huawei-matepad-pro-13-2",
+      "description": "Huawei MatePad Pro 13.2",
+      "imageUrl": "/products/huawei-matepad-pro-13-2.jpg",
+      "imageHint": "Huawei Tablet"
+    },
+    {
+      "id": "product-xiaomi-pad-6-pro",
+      "description": "Xiaomi Pad 6 Pro",
+      "imageUrl": "/products/xiaomi-pad-6-pro.jpg",
+      "imageHint": "Xiaomi Tablet"
+    },
+    {
+      "id": "product-amazon-fire-max-11",
+      "description": "Amazon Fire Max 11",
+      "imageUrl": "/products/amazon-fire-max-11.jpg",
+      "imageHint": "Amazon Tablet"
+    },
+    {
+      "id": "product-samsung-refrigerator-rf28t5001sr",
+      "description": "Samsung 28 cu. ft. French Door Refrigerator",
+      "imageUrl": "/products/samsung-refrigerator-rf28t5001sr.jpg",
+      "imageHint": "Samsung Refrigerator"
+    },
+    {
+      "id": "product-lg-washer-dryer-wm3900hwa",
+      "description": "LG 4.5 cu. ft. Front Load Washer",
+      "imageUrl": "/products/lg-washer-dryer-wm3900hwa.jpg",
+      "imageHint": "LG Washer"
+    },
+    {
+      "id": "product-dyson-vacuum-v15-detect",
+      "description": "Dyson V15 Detect Cordless Vacuum",
+      "imageUrl": "/products/dyson-vacuum-v15-detect.jpg",
+      "imageHint": "Dyson Vacuum"
+    },
+    {
+      "id": "product-whirlpool-dishwasher-wdt750sakz",
+      "description": "Whirlpool Built-In Dishwasher",
+      "imageUrl": "/products/whirlpool-dishwasher-wdt750sakz.jpg",
+      "imageHint": "Whirlpool Dishwasher"
+    },
+    {
+      "id": "product-ge-microwave-jvm3160rfss",
+      "description": "GE Over-the-Range Microwave",
+      "imageUrl": "/products/ge-microwave-jvm3160rfss.jpg",
+      "imageHint": "GE Microwave"
+    },
+    {
+      "id": "product-kitchenaid-stand-mixer-ksm150pser",
+      "description": "KitchenAid Artisan Stand Mixer",
+      "imageUrl": "/products/kitchenaid-stand-mixer-ksm150pser.jpg",
+      "imageHint": "KitchenAid Mixer"
+    },
+    {
+      "id": "product-airpods-pro-2",
+      "description": "AirPods Pro (2nd Gen)",
+      "imageUrl": "/products/airpods-pro-2.jpg",
+      "imageHint": "AirPods Pro"
+    },
+    {
+      "id": "product-nintendo-switch-2",
+      "description": "Nintendo Switch 2",
+      "imageUrl": "/products/nintendo-switch-2.jpg",
+      "imageHint": "Nintendo Switch"
+    },
+    {
+      "id": "blog-featured-smartphone",
+      "description": "Latest smartphones review",
+      "imageUrl": "/assets/blog-featured-smartphone.jpg",
+      "imageHint": "smartphone review"
+    },
+    {
+      "id": "blog-laptop-upgrade",
+      "description": "Modern laptop performance",
+      "imageUrl": "/assets/blog-laptop-upgrade.jpg",
+      "imageHint": "laptop performance"
+    },
+    {
+      "id": "blog-refurbished-vs-new",
+      "description": "Refurbished gadgets",
+      "imageUrl": "/assets/blog-refurbished-vs-new.jpg",
+      "imageHint": "refurbished gadgets"
+    },
+    {
+      "id": "blog-battery-life",
+      "description": "Battery maintenance",
+      "imageUrl": "/assets/blog-battery-life.jpg",
+      "imageHint": "battery life"
+    },
+    {
+      "id": "blog-setup-guide",
+      "description": "New device setup",
+      "imageUrl": "/assets/blog-setup-guide.jpg",
+      "imageHint": "device setup"
+    },
+    {
+      "id": "blog-remote-work-acc",
+      "description": "Remote work setup",
+      "imageUrl": "/assets/blog-remote-work-acc.jpg",
+      "imageHint": "remote work"
+    },
+    {
+      "id": "blog-warranty-guide",
+      "description": "Warranty and support",
+      "imageUrl": "/assets/blog-warranty-guide.jpg",
+      "imageHint": "warranty support"
+    },
+    {
+      "id": "blog-new-arrivals-march",
+      "description": "March 2026 products",
+      "imageUrl": "/assets/blog-new-arrivals-march.jpg",
+      "imageHint": "tech gadgets"
+    },
+    {
+      "id": "blog-header-bg",
+      "description": "Main Insights Header Background",
+      "imageUrl": "/assets/blog-header-bg.png",
+      "imageHint": "tech background"
+    },
+    {
+      "id": "smartphone-buying-guide-bg",
+      "description": "Smartphone Guide Background",
+      "imageUrl": "/assets/smartphone-buying-guide-bg.png",
+      "imageHint": "smartphone background"
+    },
+    {
+      "id": "laptop-upgrade-bg",
+      "description": "Laptop Upgrade Background",
+      "imageUrl": "/assets/laptop-upgrade-bg.png",
+      "imageHint": "laptop background"
+    },
+    {
+      "id": "refurbished-vs-new-bg",
+      "description": "Refurbished Guide Background",
+      "imageUrl": "/assets/refurbished-vs-new-bg.png",
+      "imageHint": "refurbished background"
+    },
+    {
+      "id": "battery-life-bg",
+      "description": "Battery Tips Background",
+      "imageUrl": "/assets/battery-life-bg.png",
+      "imageHint": "battery background"
+    },
+    {
+      "id": "device-setup-bg",
+      "description": "Device Setup Background",
+      "imageUrl": "/assets/device-setup-bg.png",
+      "imageHint": "setup background"
+    },
+    {
+      "id": "remote-work-bg",
+      "description": "Remote Work Background",
+      "imageUrl": "/assets/remote-work-bg.png",
+      "imageHint": "office background"
+    },
+    {
+      "id": "warranty-guide-bg",
+      "description": "Warranty Guide Background",
+      "imageUrl": "/assets/warranty-guide-bg.png",
+      "imageHint": "support background"
+    },
+    {
+      "id": "new-arrivals-bg",
+      "description": "New Arrivals Background",
+      "imageUrl": "/assets/new-arrivals-bg.png",
+      "imageHint": "new products"
+    }
+  ]
+}
