@@ -10,7 +10,7 @@ import { Badge } from "@/components/ui/badge";
 const testimonials = [
   {
     id: 1,
-    name: "Ann C.",
+    name: "Ann Chebet",
     rating: 4.8,
     comment:
       "Excellent service! Found the perfect laptop for my work needs. The staff was knowledgeable and helped me choose the right specifications.",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Michael O.",
+    name: "Michael Omondi",
     rating: 4.3,
     comment:
       "Great prices and fast service. Bought my iPhone here and got a better deal than anywhere else. Highly recommend!",
@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Emily A.",
+    name: "Emily Wanja",
     rating: 5,
     comment:
       "The team helped me build a custom gaming PC within my budget. Amazing performance and great customer support throughout the process.",
@@ -40,7 +40,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Dannis N.",
+    name: "Dannis Kimani",
     rating: 4,
     comment:
       "Professional service and quality products. The warranty support has been excellent when I needed it.",
@@ -50,7 +50,7 @@ const testimonials = [
   },
   {
     id: 5,
-    name: "Grace A.",
+    name: "Grace Nekesa",
     rating: 5,
     comment:
       "Amazing service and country-wide delivery was super fast! Got my new phone in perfect condition.",
@@ -60,7 +60,7 @@ const testimonials = [
   },
   {
     id: 6,
-    name: "Peter K.",
+    name: "Peter Gitau",
     rating: 4,
     comment:
       "The staff at Rwathia Gadget Store are very helpful. Found exactly what I needed for my home.",

@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -69,8 +68,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link href="/" className="flex items-center space-x-3 mb-4">
-              <div className="relative w-12 h-12">
+            <Link href="/" className="flex items-center space-x-3 mb-6">
+              <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
                 {footerLogo?.imageUrl && (
                   <Image
                     src={footerLogo.imageUrl}
@@ -81,11 +80,11 @@ export default function Footer() {
                   />
                 )}
               </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyan-400 bg-clip-text text-transparent font-headline">
+              <span className="text-xl font-bold text-blue-400 font-headline leading-tight">
                 Rwathia Gadget Store
               </span>
             </Link>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400 mb-6 text-sm leading-relaxed">
               Where Quality Meets Affordability. Your trusted partner for all
               technology needs with country wide delivery.
             </p>
@@ -106,14 +105,14 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-headline">Quick Links</h3>
-            <ul className="space-y-2">
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-lg font-semibold mb-4 font-headline text-white/90">Quick Links</h3>
+            <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {link.label}
                   </Link>
@@ -123,14 +122,14 @@ export default function Footer() {
           </div>
 
           {/* Categories */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-headline">Categories</h3>
-            <ul className="space-y-2">
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-lg font-semibold mb-4 font-headline text-white/90">Categories</h3>
+            <ul className="space-y-3">
               {categories.map((category) => (
                 <li key={category.href}>
                   <Link
                     href={category.href}
-                    className="text-gray-400 hover:text-white transition-colors"
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {category.label}
                   </Link>
@@ -140,12 +139,12 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-headline">Contact Info</h3>
-            <div className="space-y-3">
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-lg font-semibold mb-4 font-headline text-white/90">Contact Info</h3>
+            <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
-                <div className="text-gray-400">
+                <div className="text-gray-400 text-sm">
                   <p>HH Towers, Moi Avenue</p>
                   <p>Nairobi, Kenya</p>
                 </div>
@@ -154,7 +153,7 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
                 <a
                   href="tel:+254729462462"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors text-sm font-medium"
                 >
                   +254 729 462 462
                 </a>
@@ -163,35 +162,35 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />
                 <a
                   href="mailto:info@rwathiagadgetstore.com"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors text-sm font-medium break-all"
                 >
                   info@rwathiagadgetstore.com
                 </a>
               </div>
             </div>
 
-            <div className="mt-4 p-3 bg-gray-800 rounded-lg">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="font-semibold font-headline">Store Hours</h4>
+            <div className="mt-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="font-semibold font-headline text-sm">Store Hours</h4>
                 {storeStatus && (
-                  <Badge variant={storeStatus.isOpen ? "default" : "destructive"} className="text-[10px] h-5">
+                  <Badge variant={storeStatus.isOpen ? "default" : "destructive"} className="text-[10px] h-5 px-2">
                     {storeStatus.text}
                   </Badge>
                 )}
               </div>
-              <div className="text-sm text-gray-400 space-y-1">
-                <p>Mon-Fri: 8:00 AM - 8:00 PM</p>
-                <p>Saturday: 8:00 AM - 9:00 PM</p>
-                <p>Sunday: 10:00 AM - 3:00 PM</p>
+              <div className="text-xs text-gray-400 space-y-1.5">
+                <p className="flex justify-between"><span>Mon-Fri:</span> <span>8:00 AM - 8:00 PM</span></p>
+                <p className="flex justify-between"><span>Saturday:</span> <span>8:00 AM - 9:00 PM</span></p>
+                <p className="flex justify-between"><span>Sunday:</span> <span>10:00 AM - 3:00 PM</span></p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
+          <p className="text-gray-500 text-xs">
             © {new Date().getFullYear()} Rwathia Gadget Store. All rights reserved. |
-            <Link href="/terms" className="hover:text-white ml-1">
+            <Link href="/terms" className="hover:text-white ml-1 underline underline-offset-2">
               Terms & Conditions
             </Link>
           </p>

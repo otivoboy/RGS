@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
@@ -20,6 +21,10 @@ import { Button } from '@/components/ui/button';
 export default function AboutPage() {
   const storeTeamImage = PlaceHolderImages.find(
     (p) => p.id === 'about-store-team'
+  );
+  
+  const heroBgImage = PlaceHolderImages.find(
+    (p) => p.id === 'about-hero-bg'
   );
 
   const journey = [
@@ -63,21 +68,33 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden bg-primary/5">
+      <section className="relative py-24 md:py-32 overflow-hidden bg-gray-900">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={heroBgImage?.imageUrl || "/assets/about-hero-bg.png"}
+            alt="About Rwathia Gadget Store"
+            fill
+            className="object-cover opacity-40"
+            priority
+            data-ai-hint={heroBgImage?.imageHint}
+          />
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+
         <div className="container mx-auto max-w-[1440px] px-4 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 font-headline leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-headline leading-tight drop-shadow-lg">
               We’ve Been Moving Fast,<br />
-              <span className="text-primary">So You Don’t Have to Wait</span>
+              <span className="text-[#FFB800]">So You Don’t Have to Wait</span>
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
+            <p className="text-xl text-gray-200 leading-relaxed mb-8 drop-shadow-md">
               From a single storefront to a trusted name across the country, we’ve built Rwathia Gadget Store on one simple idea: everyone deserves access to quality technology without the high price tag.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button asChild size="lg" className="rounded-full px-8">
+              <Button asChild size="lg" className="rounded-full px-8 bg-[#2B59FF] hover:bg-[#2B59FF]/90">
                 <Link href="/products">Browse Our Catalog</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="rounded-full px-8 bg-transparent">
+              <Button asChild variant="outline" size="lg" className="rounded-full px-8 bg-transparent text-white border-white hover:bg-white/10">
                 <Link href="/contact">Contact Our Team</Link>
               </Button>
             </div>
@@ -100,7 +117,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border-8 border-white dark:border-gray-800">
               <Image
-                src={storeTeamImage?.imageUrl ?? '/'}
+                src={storeTeamImage?.imageUrl ?? '/about/store-team.jpg'}
                 alt={storeTeamImage?.description ?? 'Rwathia Gadget Store Team'}
                 fill
                 className="object-cover"

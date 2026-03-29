@@ -7,6 +7,12 @@
       "imageHint": "store team"
     },
     {
+      "id": "about-hero-bg",
+      "description": "About Page Hero Background",
+      "imageUrl": "/assets/about-hero-bg.png",
+      "imageHint": "tech business"
+    },
+    {
       "id": "gallery-store-front",
       "description": "Store Front",
       "imageUrl": "/assets/gallery-store-front.jpg",

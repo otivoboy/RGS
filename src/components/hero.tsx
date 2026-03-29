@@ -1,12 +1,26 @@
 
 "use client";
 
+import { useEffect, useRef } from "react";
+
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(error => {
+        // Log error only in development if needed
+        console.debug("Video autoplay attempted:", error);
+      });
+    }
+  }, []);
+
   return (
     <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white overflow-hidden min-h-[500px] md:min-h-[600px] flex items-center justify-center">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full z-0">
         <video
+          ref={videoRef}
           id="hero-video-player"
           className="absolute inset-0 w-full h-full object-cover"
           style={{

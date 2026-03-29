@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -15,6 +14,7 @@ const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [cartCount, setCartCount] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
   const pathname = usePathname();
   const logo = PlaceHolderImages.find(p => p.id === 'logo-navbar');
 
@@ -26,6 +26,12 @@ export default function Navbar() {
           (sum: number, item: any) => sum + (item.quantity || 0),
           0
         );
+        
+        if (totalItems !== cartCount) {
+          setIsAnimating(true);
+          setTimeout(() => setIsAnimating(false), 300);
+        }
+        
         setCartCount(totalItems);
       } catch (e) {
         setCartCount(0);
@@ -41,7 +47,7 @@ export default function Navbar() {
       window.removeEventListener("storage", updateCartCount);
       window.removeEventListener("cartUpdated", updateCartCount);
     };
-  }, []);
+  }, [cartCount]);
 
   useEffect(() => {
     setIsOpen(false);
@@ -121,8 +127,7 @@ export default function Navbar() {
                     />
                   )}
                 </div>
-                {/* Desktop Only Title */}
-                <span className="hidden md:inline-block ml-3 text-xl lg:text-2xl font-bold bg-gradient-to-r from-[#2B59FF] to-cyan-400 bg-clip-text text-transparent font-headline">
+                <span className="hidden md:inline-block ml-3 text-xl lg:text-2xl font-bold text-[#2B59FF] font-headline">
                   Rwathia Gadget Store
                 </span>
               </Link>
@@ -145,11 +150,11 @@ export default function Navbar() {
 
             {/* Right Icons */}
             <div className="flex items-center gap-3 md:gap-6">
-              <Link href="/cart" className="relative p-1.5 group">
-                <ShoppingBag className="w-6 h-6 text-gray-600 dark:text-gray-400 group-hover:text-[#2B59FF] transition-colors" />
+              <Link href="/cart" className="relative p-2 group transition-transform active:scale-95">
+                <ShoppingBag className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#2B59FF] transition-colors" />
                 {cartCount > 0 && (
-                  <span className="absolute top-0 right-0 bg-gray-800 text-white text-[9px] font-bold rounded-full h-4.5 w-4.5 flex items-center justify-center shadow-md">
-                    {cartCount}
+                  <span className={`absolute top-0 right-0 -mr-1 -mt-1 bg-red-600 text-white text-[10px] font-black rounded-full h-5 w-5 flex items-center justify-center shadow-md ring-2 ring-background transition-transform duration-300 ${isAnimating ? 'scale-125' : 'scale-100'}`}>
+                    {cartCount > 99 ? '99+' : cartCount}
                   </span>
                 )}
               </Link>

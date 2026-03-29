@@ -1,9 +1,21 @@
+
 "use client";
 
+import { useEffect, useRef } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Users, Award } from "lucide-react";
 
 export default function AboutSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(error => {
+        // Silently handle autoplay block
+      });
+    }
+  }, []);
+
   const features = [
     {
       icon: Shield,
@@ -58,6 +70,7 @@ export default function AboutSection() {
               <CardContent className="p-0 relative">
                 <div className="aspect-video relative overflow-hidden rounded-lg">
                   <video
+                    ref={videoRef}
                     id="about-video"
                     className="absolute inset-0 w-full h-full object-cover"
                     style={{
